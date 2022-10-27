@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /*font-family: 'Russo One', sans-serif;*/
+
+:root{
+    --fonte-padrao: 'Russo One', sans-serif;
+
+    --cor1: #400822;
+    --cor2: #8c184e;
+    --cor3: #731440;
+    --cor4: #260216;
+    --cor5: #f2f2f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
