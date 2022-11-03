@@ -28,7 +28,7 @@ body{
 
 main{
     width: 80vw;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,27 +39,24 @@ main{
 }
 
 main > img {
-    opacity: 0.5;
+    /* opacity: 0.25; */
 }
 
-/* main > div.animacao{
-    animation: is-rotating 1.2s infinite;
-    border: 6px solid var(--cor5);
-    border-radius: 50%;
-    border-top-color: var(--cor1);
-    height: 200px;
-    width: 200px;
+main > div#barra{
+    height: 30px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: var(--cor5);
 }
 
-@keyframes is-rotating{
-    to {
-        transform: rotate(1turn);
-    }
+main > div#barra > div {
+    height: 100%;
+    /* width: 25%; */
+    border-radius: 10px;
+    background-color: var(--cor1);
 }
-
-main > div.animacao > div{
-    position: absolute;
-} */
 
 footer{
     /* margin: auto; */
