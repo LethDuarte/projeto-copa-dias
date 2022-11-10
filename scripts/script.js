@@ -9,7 +9,13 @@ var porc = 100 - dia;
 function escrever(){
     var texto = document.getElementById('texto');
 
-    texto.innerHTML = `Faltam ${dia} dias para a Copa do Mundo do Catar!`
+    if(dia > 0){
+        texto.innerHTML = `Faltam ${dia} dias para a Copa do Mundo do Catar!`;
+    } else if(dia = 0){
+        texto.innerHTML = `A Copa do Mundo do Catar começa hoje!`;
+    } else {
+        texto.innerHTML = `A Copa do Mundo do Catar começou em 20 de novembro!`;
+    }
 }
 
 function progresso(){

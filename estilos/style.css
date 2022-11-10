@@ -68,9 +68,9 @@ main > div#barra > div {
 }
 
 footer{
-    margin: auto;
     position: absolute;
     bottom: 0;
+    margin-bottom: 8px;
+    left: 40%;
     font-size: 0.8em;
-    text-align: center;
 }
